@@ -298,7 +298,7 @@ if page == "🧪 Student Lab":
                     "experiment": "Conditional Stability / Routh-Hurwitz",
                     "equation": equation_string(coeffs),
                     "coefficients": ",".join(f"{x:g}" for x in coeffs),
-                    "K": None if K is None else float(K),
+                    "k": None if K is None else float(K),
                     "system_order": len(coeffs)-1,
                     "status": status,
                     "routh_sign_changes": changes,
